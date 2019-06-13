@@ -1,0 +1,10 @@
+{
+    "name": "p313/interview-unit-tests",
+    "description": "A forkable package to add unit tests to",
+    "type": "library",
+    "require": {
+        "php": "^7.1",
+        "psr/http-server-middleware": "^1.0",
+        "zendframework/zend-diactoros": "^2.1"
+    }
+}
