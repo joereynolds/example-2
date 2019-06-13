@@ -5,6 +5,23 @@
     "require": {
         "php": "^7.1",
         "psr/http-server-middleware": "^1.0",
-        "zendframework/zend-diactoros": "^2.1"
+        "zendframework/zend-diactoros": "^2.1",
+        "mockery/mockery": "^1.2"
+    },
+    "scripts" : {
+        "test": "phpunit test/"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "InsuranceInteraction\\": "src/InsuranceInteraction/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "InsuranceInteractionTest\\": "test/InsuranceInteractionTest/"
+        }
     }
 }
